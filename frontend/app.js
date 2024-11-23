@@ -1,4 +1,4 @@
-const API_URL = "https://task-manager-backend.onrender.com/api/tasks"
+const API_URL = "https://t-test.onrender.com/api/tasks"
 document.getElementById('task-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const task = document.getElementById('task-input').value;
